@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="text-on-the-left">
+            <h1>Learn to code by <br> watching others</h1>
+            <h2>Learn to code by watching others</h2>
+            <p> 
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable. 
+            </p>
+        </div>
+
+        <div class="right-form">
+            <p class="static-top-info">Try it free 7days <span class="inside-text">then $20/mo. thereafter</span></p>
+
+            <form class="all-inputs">
+
+                <div class="input-container">
+                    <div class="input-field">
+                        <input type="text" autofocus placeholder="First Name" id="signupFirstname" class="js-first-name-input">
+                        <img class="error1" src="./images/icon-error.svg" alt="error-img">
+                    </div>
+                    <p class="fname-error"></p>
+                </div>
+
+                <div class="input-container">
+                    <div class="input-field">
+                        <input type="text" placeholder="Last Name" id="signupLastname" class="js-last-name-input">
+                        <img class="error2" src="./images/icon-error.svg" alt="error-img">
+                    </div>
+                    <p class="lname-error"></p>
+                </div>
+
+                <div class="input-container">
+                    <div class="input-field">
+                        <input type="email" placeholder="Email Address" id="signupEmail" class="js-email-address-input">
+                        <img class="error3" src="./images/icon-error.svg" alt="error-img">
+                    </div>
+                    <p class="email-error"></p>
+                </div>
+
+                <div class="input-container">
+                    <div class="input-field">
+                        <input type="password" placeholder="Password" id="signupPassword" class="js-password-input">
+                        <img class="error4" src="./images/icon-error.svg" alt="error-img">
+                    </div>
+                    <p class="password-error"></p>
+                </div>
+
+
+                <button type="submit" class="submit-btn js-submit-btn">CLAIM YOUR FREE TRIAL</button>
+
+                <p class="t-and-c">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
