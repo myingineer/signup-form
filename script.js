@@ -4,7 +4,7 @@ const lastName = document.querySelector('.js-last-name-input');
 const emailAddress = document.querySelector('.js-email-address-input');
 const password = document.querySelector('.js-password-input');
 
-// Getting the Button
+// Getting the Buttons
 const subscribeBtn = document.querySelector('.js-submit-btn');
 
 // Getting all error messages
